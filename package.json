@@ -6,7 +6,8 @@
   "author": "Nandier Ruiz Acosta",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
