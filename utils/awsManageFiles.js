@@ -1,5 +1,5 @@
-const { PutObjectCommand, GetObjectCommand } = require('@aws-sdk/client-s3');
-const { s3Client } = require('../libs/sampleClient')
+// const { PutObjectCommand, GetObjectCommand } = require('@aws-sdk/client-s3');
+// const { s3Client } = require('../libs/sampleClient')
 const AWS = require('aws-sdk');
 const fs = require('fs')
 
