@@ -10,7 +10,12 @@ const port = process.env.PORT
 dbConecction();
 
 // Configurar CORS
-const whitelist = [process.env.FRONTEND_URL, process.env.FRONTEND_URL_2, 'http://localhost:5173'];
+const whitelist = [
+    process.env.FRONTEND_URL,
+    process.env.FRONTEND_URL_2,
+    process.env.FRONTEND_URL_3,
+    'http://localhost:5173'
+];
 
 app.use(cors({ origin: whitelist }))
 app.use(express.json())
